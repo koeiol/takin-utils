@@ -1,0 +1,35 @@
+buildscript {
+	ext {
+		springBootVersion = '1.4.1.RELEASE'
+	}
+	repositories {
+		mavenLocal()
+		maven { url "http://172.16.22.128:8081/nexus/content/groups/public" }
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+	}
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'spring-boot'
+
+jar {
+	baseName = 'takin-utils-qrcode'
+	version = '0.0.1-SNAPSHOT'
+}
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+	mavenLocal()
+	maven { url "http://172.16.22.128:8081/nexus/content/groups/public" }
+}
+
+dependencies {
+	compile('org.springframework.boot:spring-boot-starter')
+	compile('com.google.zxing:javase:3.3.0')
+	testCompile('org.springframework.boot:spring-boot-starter-test')
+}
