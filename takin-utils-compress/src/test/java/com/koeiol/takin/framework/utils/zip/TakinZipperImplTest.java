@@ -9,7 +9,7 @@ import java.io.File;
 import java.io.FileWriter;
 
 /**
- * Created by xuh on 16/9/12.
+ * Created by koeiol@github.com on 16/9/12.
  */
 public class TakinZipperImplTest {
 

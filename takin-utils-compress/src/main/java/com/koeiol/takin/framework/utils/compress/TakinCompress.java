@@ -3,7 +3,7 @@ package com.koeiol.takin.framework.utils.compress;
 import java.io.File;
 
 /**
- * Created by xuh on 16/9/26.
+ * Created by koeiol@github.com on 16/9/26.
  */
 public class TakinCompress {
 

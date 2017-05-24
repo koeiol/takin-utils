@@ -4,7 +4,8 @@ buildscript {
 	}
 	repositories {
 		mavenLocal()
-		maven { url "http://172.16.22.128:8081/nexus/content/groups/public" }
+		maven { url "http://repo.koeiol.com" }
+		mavenCentral()
 	}
 	dependencies {
 		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}") 
@@ -24,7 +25,8 @@ targetCompatibility = 1.8
 
 repositories {
 	mavenLocal()
-	maven { url "http://172.16.22.128:8081/nexus/content/groups/public" }
+	maven { url "http://repo.koeiol.com" }
+	mavenCentral()
 }
 
 

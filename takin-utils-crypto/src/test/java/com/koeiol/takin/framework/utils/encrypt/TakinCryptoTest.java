@@ -6,7 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * Created by xuh on 16/9/26.
+ * Created by koeiol@github.com on 16/9/26.
  */
 public class TakinCryptoTest {
 

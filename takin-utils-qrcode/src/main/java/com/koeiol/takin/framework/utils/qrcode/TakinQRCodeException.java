@@ -1,7 +1,7 @@
 package com.koeiol.takin.framework.utils.qrcode;
 
 /**
- * Created by xuh on 16/9/25.
+ * Created by koeiol@github.com on 16/9/25.
  */
 public class TakinQRCodeException extends RuntimeException {
 

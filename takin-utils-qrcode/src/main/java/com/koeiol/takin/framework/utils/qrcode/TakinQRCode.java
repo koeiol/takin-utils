@@ -25,7 +25,7 @@ import java.util.HashMap;
  * </ul>
  *
  *
- * Created by xuh on 16/9/25.
+ * Created by koeiol@github.com on 16/9/25.
  */
 public class TakinQRCode {
 

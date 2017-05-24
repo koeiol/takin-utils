@@ -9,7 +9,7 @@ import java.util.zip.ZipInputStream;
 import java.util.zip.ZipOutputStream;
 
 /**
- * Created by xuh on 16/9/12.
+ * Created by koeiol@github.com on 16/9/12.
  */
 public class TakinZipperImpl implements TakinZipper {
 

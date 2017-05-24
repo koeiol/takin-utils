@@ -3,6 +3,8 @@ buildscript {
 		springBootVersion = '1.4.1.RELEASE'
 	}
 	repositories {
+		mavenLocal()
+		maven { url "http://repo.koeiol.com" }
 		mavenCentral()
 	}
 	dependencies {
@@ -22,6 +24,8 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 repositories {
+	mavenLocal()
+	maven { url "http://repo.koeiol.com" }
 	mavenCentral()
 }
 

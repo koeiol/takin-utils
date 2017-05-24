@@ -7,7 +7,7 @@ import javax.crypto.spec.DESKeySpec;
 import java.security.SecureRandom;
 
 /**
- * Created by xuh on 16/9/26.
+ * Created by koeiol@github.com on 16/9/26.
  */
 public class TakinCryptoDES extends TakinCrypto {
 

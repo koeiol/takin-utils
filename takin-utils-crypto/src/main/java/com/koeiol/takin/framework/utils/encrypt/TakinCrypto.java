@@ -3,7 +3,7 @@ package com.koeiol.takin.framework.utils.encrypt;
 import org.springframework.util.Assert;
 
 /**
- * Created by xuh on 16/9/25.
+ * Created by koeiol@github.com on 16/9/25.
  */
 public class TakinCrypto {
 
