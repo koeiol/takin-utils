@@ -5,23 +5,23 @@ package com.koeiol.takin.framework.utils.encrypt;
  */
 public class TakinAlgorithmModeNotSupportException extends RuntimeException {
 
-	public TakinAlgorithmModeNotSupportException() {
-		super();
-	}
+    public TakinAlgorithmModeNotSupportException() {
+        super();
+    }
 
-	public TakinAlgorithmModeNotSupportException(String message) {
-		super(message);
-	}
+    public TakinAlgorithmModeNotSupportException(String message) {
+        super(message);
+    }
 
-	public TakinAlgorithmModeNotSupportException(String message, Throwable cause) {
-		super(message, cause);
-	}
+    public TakinAlgorithmModeNotSupportException(String message, Throwable cause) {
+        super(message, cause);
+    }
 
-	public TakinAlgorithmModeNotSupportException(Throwable cause) {
-		super(cause);
-	}
+    public TakinAlgorithmModeNotSupportException(Throwable cause) {
+        super(cause);
+    }
 
-	protected TakinAlgorithmModeNotSupportException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
-		super(message, cause, enableSuppression, writableStackTrace);
-	}
+    protected TakinAlgorithmModeNotSupportException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+        super(message, cause, enableSuppression, writableStackTrace);
+    }
 }

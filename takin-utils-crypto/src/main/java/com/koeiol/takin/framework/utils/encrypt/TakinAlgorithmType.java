@@ -5,6 +5,6 @@ package com.koeiol.takin.framework.utils.encrypt;
  */
 public enum TakinAlgorithmType {
 
-	MD5, SHA1, DES;
+    MD5, SHA1, DES;
 
 }

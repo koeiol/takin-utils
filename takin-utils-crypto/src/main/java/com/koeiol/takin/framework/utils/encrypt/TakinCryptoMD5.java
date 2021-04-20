@@ -7,16 +7,16 @@ import java.security.MessageDigest;
  */
 public class TakinCryptoMD5 extends TakinCrypto {
 
-	private final static String ALGORITHM = "MD5";
+    private final static String ALGORITHM = "MD5";
 
-	protected TakinCryptoMD5() {
-	}
+    protected TakinCryptoMD5() {
+    }
 
-	@Override
-	protected String doEncrypt(String plaintext) throws Exception {
-		MessageDigest messageDigest = MessageDigest.getInstance(ALGORITHM);
-		messageDigest.update(plaintext.getBytes());
-		return byte2hex(messageDigest.digest());
-	}
+    @Override
+    protected String doEncrypt(String plaintext) throws Exception {
+        MessageDigest messageDigest = MessageDigest.getInstance(ALGORITHM);
+        messageDigest.update(plaintext.getBytes());
+        return byte2hex(messageDigest.digest());
+    }
 
 }

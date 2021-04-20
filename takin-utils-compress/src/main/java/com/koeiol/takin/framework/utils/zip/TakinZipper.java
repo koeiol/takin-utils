@@ -7,8 +7,8 @@ import java.io.IOException;
  */
 public interface TakinZipper {
 
-	void zip(String srcFile, String zipFile) throws IOException;
+    void zip(String srcFile, String zipFile) throws IOException;
 
-	void unzip(String zipFile, String objPath) throws IOException;
+    void unzip(String zipFile, String objPath) throws IOException;
 
 }

@@ -8,16 +8,16 @@ import java.security.MessageDigest;
 public class TakinCryptoSHA1 extends TakinCrypto {
 
 
-	private final static String ALGORITHM = "SHA-1";
+    private final static String ALGORITHM = "SHA-1";
 
-	protected TakinCryptoSHA1() {
-	}
+    protected TakinCryptoSHA1() {
+    }
 
-	@Override
-	protected String doEncrypt(String plaintext) throws Exception {
-		MessageDigest messageDigest = MessageDigest.getInstance(ALGORITHM);
-		messageDigest.update(plaintext.getBytes());
-		return byte2hex(messageDigest.digest());
-	}
+    @Override
+    protected String doEncrypt(String plaintext) throws Exception {
+        MessageDigest messageDigest = MessageDigest.getInstance(ALGORITHM);
+        messageDigest.update(plaintext.getBytes());
+        return byte2hex(messageDigest.digest());
+    }
 
 }

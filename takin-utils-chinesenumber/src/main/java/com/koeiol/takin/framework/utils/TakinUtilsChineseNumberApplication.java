@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TakinUtilsChinesenumberApplication {
+public class TakinUtilsChineseNumberApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(TakinUtilsChinesenumberApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(TakinUtilsChineseNumberApplication.class, args);
+    }
 }

@@ -19,7 +19,7 @@ import java.util.HashMap;
  * <ul>
  * Sample:
  * <li>TakinQRCode.from(String context).withXXX().withXXX().toFile([name])</li>
- * <li>TakinQRCode.from(String context).withXXX().withXXX().toStram([stream])</li>
+ * <li>TakinQRCode.from(String context).withXXX().withXXX().toStream([stream])</li>
  * </ul>
  * <p>
  * <p>
@@ -123,7 +123,7 @@ public class TakinQRCode {
                 BufferedImage logoImage = zoomImage(ImageIO.read(logo));
                 Point logoPosition = calcPosition(logoImage);
 
-                BufferedImage combinedImage = new BufferedImage(height, width, BufferedImage.TYPE_INT_ARGB);
+                BufferedImage combinedImage = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
                 Graphics2D g = (Graphics2D) combinedImage.getGraphics();
                 g.drawImage(MatrixToImageWriter.toBufferedImage(createBitMatrix()), 0, 0, null);
                 g.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, 1f));

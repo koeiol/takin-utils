@@ -7,17 +7,17 @@ import java.io.File;
  */
 public class TakinCompress {
 
-	public final static TakinCompress useAlgorithm(TakinCompressType compressType) {
-		TakinCompress takinCompress = new TakinCompress();
-		return takinCompress;
-	}
+    public final static TakinCompress useAlgorithm(TakinCompressType compressType) {
+        TakinCompress takinCompress = new TakinCompress();
+        return takinCompress;
+    }
 
-	public File compress(File file) {
-		return null;
-	}
+    public File compress(File file) {
+        return null;
+    }
 
-	public File decompress(File file) {
-		return null;
-	}
+    public File decompress(File file) {
+        return null;
+    }
 
 }
